@@ -1,0 +1,51 @@
+.workP {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+}
+
+.logo, .logout {
+    margin: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+
+.leftbar {
+    width: 15vw;
+    height: 100vh;
+    border: 2px solid lightgray;
+}
+
+.work-title-wrapper {
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+}
+.work {
+    left: 15vw;
+    top: -90vh;
+    display: flex;
+    flex-direction: row;
+    width: 83vw;
+    position: relative;
+}
+
+
+.leftWorkP {
+    flex: 1 ;
+}
+
+.rightWorkP {
+    flex: 1;
+}  
